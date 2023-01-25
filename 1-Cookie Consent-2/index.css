@@ -1,0 +1,233 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    font-family: 'Roboto';
+    color: #222;
+    width: 100%;
+}
+
+/* typography */
+.top {
+    display: flex;
+    flex-direction: row;
+    background-color: brown;
+    /* padding: 0 5px; */
+    height: 100px;
+    text-shadow: 1px 1px 10px black;
+    /* border-bottom: 1px solid black; */
+    box-shadow: 0 0 20px black;
+}
+
+#h1 {
+    color: white;
+    padding: 0 15px;
+    font-family: 'Sacramento', cursive;
+    font-size: 50px;
+}
+
+#spanid {
+    color: brown;
+    font-weight: bolder;
+}
+
+a {
+    color: brown;
+}
+
+.about {
+    padding: 50px 20px;
+}
+
+h2{
+    margin-top: 0;
+    color: yellow;
+}
+#head{
+    font-family: 'Press Start 2P', cursive;
+}
+h3{
+    font-size: 20px;
+    font-weight: 700; 
+    line-height: 30px;
+}
+
+p{
+    font-size: 18px;
+    line-height: 28px;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    list-style-type: none;
+    padding-left: 500px;
+}
+
+li {
+    color: white;
+    margin-right: 50px;
+    font-size: 25px;
+
+}
+
+.contactUs {
+    padding-left: 80px;
+    margin-top: 30px;
+    padding-bottom: 10px;
+
+}
+
+
+/* section */
+
+.section-container{
+    padding: 20px;
+}
+
+/* modal */
+  
+.modal {
+    display: none;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 100px;
+    bottom: 0;
+    margin: auto;
+    height: 500px;
+    width: 500px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 6px 2px #666;
+    background-color: brown;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.modal-inner{
+    width: 400px;
+    margin: 0 auto;
+}
+
+.modal-inner-loading{
+    text-align: center;
+}
+
+/* modal buttons */
+
+.close-modal-btn-container{
+    text-align: right;
+    margin: 9px;
+}
+
+.modal-close-btn {
+  font-size: 22px;
+  font-weight: bold;
+  background-color: transparent;
+  border: 1px solid transparent;
+  color: whitesmoke;
+}
+
+.modal-close-btn:hover,
+.modal-close-btn:active{
+    color: black;
+    cursor: pointer;
+}
+
+.modal-close-btn:disabled{
+    color: whitesmoke;
+    opacity: 0.2;
+    cursor: not-allowed;
+}
+
+.modal-choice-btns{
+    margin-top: 10px;
+    padding: 8px 16px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.modal-btn{
+    padding: 10px 24px;
+    cursor: pointer;
+    box-shadow: 2px 2px black;
+    margin: 0 5px;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+.modal-btns-reverse{
+    flex-direction: row-reverse;
+}
+
+/* modal input */
+#consent-form{
+margin-top: 60px;
+}
+
+input{
+    margin-top: 10px; 
+    border: 1px solid #212529;
+    box-shadow: 1px 1px 10px black;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+}
+input:active{
+    background-color: black;
+}
+.after {
+    background-color: yellow;
+    font-weight: bolder;
+}
+
+
+/* modal after submit */
+
+.loading{
+    width: 100%; 
+    height: 100px;
+    margin-top: 1px;
+}
+.loading2 {
+    width: 100%;
+    margin-top: 1px;
+    margin-bottom: 10px;
+    height: 300px;
+}
+.loading3{
+    width: 100%;
+    margin-top: 1px;
+    margin-bottom: 10px;
+}
+.modal-display-name{
+    color: black;
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: 'Kavoon', cursive;
+}
+
+#end-gif{
+    width: 300px;
+}
+
+.modal-text{
+    height: 140px;
+    /* line-height: 23px; */
+    margin-bottom: 0;
+    font-family: 'Kavoon', cursive;
+}
+
+.idiot-gif{
+    width: 95%;
+    margin: 0 auto;
+}
+
+.idiot-gif img{
+    box-shadow: 1px 1px 3px #999;
+    border-radius: 5px;
+}
+
